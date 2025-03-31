@@ -14,3 +14,15 @@ lines(density(y), col='blue')
 
 #Apply function T test for comparing the 2 groups
 ttest = t.test(x,y)
+ttest
+
+        Welch Two Sample t-test
+
+data:  x and y
+t = 0.56518, df = 17.966, p-value = 0.5789
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.6786417  1.1780518
+sample estimates:
+  mean of x   mean of y 
+0.259067300 0.009362268 
